@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=egde">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto - SERVICIOS GENERALES L&A</title>
+    
+    <link rel="shortcut icon" href="../assets/images/taller.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/contact.css">
+
+    
+</head>
+
+<body>
+    <!--Menu de navegacion-->
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Jr. Trujillo N° 922 <br> Catacaos-Piura</h2>
+            </div>
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="../index.html" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="about.html" class="nav__links">Acerca de</a>
+                </li>
+                <li class="nav__items">
+                    <a href="servicios.html" class="nav__links">Servicios</a>
+                </li>
+                <li class="nav__items">
+                    <a href="contact.html" class="nav__links">Contacto</a>
+                </li>
+                <li class="nav__items">
+                    <a href="blog.html" class="nav__links">Blog</a>
+                </li>
+                <img src="../assets/images/close.svg" class="nav__close">
+            </ul>
+            <div class="nav__menu">
+                <img src="../assets/images/menu.svg" class="nav__img">
+            </div>
+        </nav>
+                <section class="hero__container container">
+            <h1 class="hero__title">Contáctanos</h1>
+            <p class="hero_paragraph">¿Tienes alguna consulta? !Escríbenos!</p>
+        </section>
+    </header>
+    <main>
+
+        <!--Bienvenida-->
+    <section class="container about">
+        <h2 class="subtitle">
+            Información de contacto 
+        </h2>
+        <p class="about__paragrah">
+            Puedes visitarnos en Jr. Trujillo Nº 922, Catacaos-Piura. <br>
+            También puedes escribirnos usando el siguiente formulario:
+        </p>
+    </section>
+
+    <form action="" class="contacto__formulario">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Tu apellido" required>
+
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="Tu número de teléfono" required>
+
+        <label for="telefono">Teléfono</label>
+        <input type="tel" name="telefono" id="telefono" placeholder="Tu número de teléfono" required>
+
+        <label for="asunto">Asunto</label>
+        <input type="text" id="asunto" name="asunto" placeholder="Motivo de tu mensaje" required>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea  id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+</main>
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">Servicios L&A</h2>
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="../index.html" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="about.html" class="nav__links">Acerca de</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="contact.html" class="nav__links">Contacto</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="blog.html" class="nav__links">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <form class="footer__form">
+                <h2 class="footer__newsletter">Suscribete a la newsletter</h2>
+                <div class="footer__inputs">
+                    <input type="email" placeholder="Email:" class="footer__input">
+                    <input type="submit" value="Registrate" class="footer__submit">
+                </div>
+            </form>
+        </section>
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="#" class="footer__icons"><img src="../assets/images/facebook.svg" class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">Derechos reservados &copy; Técnologia y Desarrollo Web</h3>
+        </section>
+
+    </footer>
+
+
+    <script src="./js/menu.js"></script>
+
+</body>
+</html>
