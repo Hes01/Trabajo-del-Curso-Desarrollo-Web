@@ -6,5 +6,6 @@ function mostrarReloj() {
     const seg = ahora.getSeconds().toString().padStart(2, '0');
     reloj.textContent = `${hora}:${min}:${seg}`;
 }
+
 setInterval(mostrarReloj, 1000);
 mostrarReloj();
