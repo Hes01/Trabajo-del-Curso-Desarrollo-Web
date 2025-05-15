@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=egde">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>SERVICIOS - SERVICIOS GENERALES L&A</title>
-    
+
     <link rel="shortcut icon" href="../assets/images/taller.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/estilos.css">
-    
+
 </head>
 
 <body>
@@ -19,7 +20,7 @@
             <div class="nav__logo">
                 <h2 class="nav__title">Jr. Trujillo N° 922 <br> Catacaos-Piura</h2>
             </div>
-
+            <div class="clock" id="reloj"></div>
             <ul class="nav__link nav__link--menu">
                 <li class="nav__items">
                     <a href="../index.html" class="nav__links">Inicio</a>
@@ -42,7 +43,7 @@
         </nav>
         <!--Bienvenida-->
         <section class="hero__container container">
-            <h1 class="hero__title">SERVICIOS GENERALES L&A</h1>
+            <h1 class="hero__title">SERVICIOS</h1>
             <p class="hero_paragraph">Mecánica de motos, torno y soldadura</p>
         </section>
 
@@ -52,43 +53,51 @@
 
     <main>
         <section class="container about">
-            <h2 class="subtitle">Servicios principales</h2>
+            <h2 class="subtitle">SERVICIOS</h2>
             <div class="about__main">
                 <article class="about__icons">
                     <img src="../assets/images/torno.png" class="about__icons">
                     <h3 class="about__title">Torno y rectificaciones</h3>
-                    <p class="about__paragrah">Fabricación de piezas y rectificaciones de cilindros</p>
+                    <p class="about__paragraph">
+                        Ofrecemos servicios especializados en torno y rectificaciones, orientados a la fabricación y
+                        reparación de componentes mecánicos con alta precisión.
+                    </p>
                 </article>
                 <article class="about__icons">
                     <img src="../assets/images/soldadura.jpg" class="about__icons">
                     <h3 class="about__title">Soldadura general</h3>
-                    <p class="about__paragrah">Soldadura de piezas en aluminio, bronce y hierro</p>
+                    <p class="about__paragraph">Ofrecemos servicios de soldadura en aluminio, bronce e hierro, ideales
+                        para la reparación, reforzado y ensamblaje de piezas.</p>
                 </article>
 
                 <article class="about__icons">
                     <img src="../assets/images/mecanica.jpg" class="about__icons">
                     <h3 class="about__title"> Mecánica de motos </h3>
-                    <p class="about__paragrah"> Mantenimiento, reparaciones y sistemas eléctricos de motos. Taller autorizado BAJAJ.</p>
+                    <p class="about__paragraph"> Realizamos mantenimiento preventivo y correctivo, reparaciones
+                        mecánicas y servicios en sistemas eléctricos de motos.</p>
                 </article>
 
 
             </div>
         </section>
-        
-    </main>
-    
-    <footer class="footer">
 
+    </main>
+
+    <footer class="footer">
         <section class="footer__copy container">
             <div class="footer__social">
-                <a href="#" class="footer__icons"><img src="../assets/images/facebook.svg" class="footer__img"></a>
+                <a href="https://www.facebook.com/eps.grau" class="footer__icons" target="_blank">
+                    <img src="../assets/images/facebook.svg" class="footer__img">
+                </a>
+
             </div>
 
-            <h3 class="footer__copyright">Derechos reservados &copy; Tecnología y Desarrollo Web</h3>
+            <h3 class="footer__copyright">Derechos reservados &copy; Técnologia y Desarrollo Web</h3>
         </section>
 
     </footer>
 
-
+    <script src="../js/reloj.js"></script>
 </body>
+
 </html>
