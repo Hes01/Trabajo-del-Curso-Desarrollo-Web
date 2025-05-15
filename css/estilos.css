@@ -32,6 +32,8 @@ h1 {
   margin: 0;
 }
 
+
+
 hr {
   box-sizing: content-box;
   height: 0;
@@ -51,6 +53,17 @@ abbr[title] {
 b, strong {
   font-weight: bolder;
 }
+
+.about__main {
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #f4f4f4;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
 
 /* Utilidades */
 .container {
@@ -165,6 +178,27 @@ b, strong {
   font-size: 2rem;
   margin-bottom: 25px;
 }
+.about__paragraph {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #333;
+  padding: 0 20px;
+  text-align: justify;
+  font-weight: 400;
+  max-width: 650px;
+  margin: 0 auto;
+}
+.hero_paragraph {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #f0f0f0;
+  line-height: 1.8;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
 
 .about__main {
   display: grid;
@@ -223,3 +257,5 @@ b, strong {
 .footer__img {
   width: 30px;
 }
+
+
