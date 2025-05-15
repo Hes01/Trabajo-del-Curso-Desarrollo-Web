@@ -116,9 +116,6 @@ body{
    border-radius: 32px;
 }
 
-
-
-
 /* About */
 .about{
     text-align: center;
@@ -152,6 +149,18 @@ body{
     width: 260px;
     overflow: hidden;
     margin: 0 auto;
+}
+
+.about__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+    flex-wrap: wrap; 
+    flex: 1 1 30%;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
 }
 
 .about__icon{
