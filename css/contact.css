@@ -1,0 +1,48 @@
+.contacto__formulario{
+    background: #fff;
+    padding: 2em;/*16 pixeles respecto al body*/
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 2em auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);/*x , y , desenfoque, color con alfa*/
+}
+
+.contacto__formulario{
+    display: block;
+    margin-bottom: 0.5em;
+    color: #001A49;
+    font-weight: 600;
+}
+
+.contacto__formulario input, 
+.contacto__formulario textarea {
+    width: 100%;
+    padding: 0.7em;
+    margin-bottom: 1.2em;
+    border:1px solid #ccc;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 1em;
+}
+
+.contacto__formulario textarea{
+    min-height: 100px;
+    resize: vertical;
+}
+
+.contacto__formulario button{
+    background: #2091f9;
+    color:#fff;
+    border: none;
+    padding:0.8em 2em;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor:pointer;/*manito*/
+    transition: background 0.2s; /* para animar con 0.2s*/
+}
+
+/*Mientras tengas el mouse sobre el botón se pone azul 
+*/
+.contacto__formulario button:hover{
+    background: #176dc1;
+}
